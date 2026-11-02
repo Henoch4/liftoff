@@ -104,6 +104,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <footer><span>LIFTOFF — Launch NFT collections with fixed-price public minting on BOT Chain</span><span>&#8226;Chain ID <b>677</b> &#8226;Contract <span class="mono">0x0000000000000000000000000000000000000000</span></span><span>&#8226; <a href="https://botchain.ai" target="_blank" rel="noopener">BOT Chain Website</a> &#8226; <a href="https://scan.botchain.ai/" target="_blank" rel="noopener">BOTScan Explorer</a></span></footer>
 <div id="toast"></div>
 <script>
+const PROJECT_ID = 'ee6081d44f535b82b71aa2003badb2b7'; // AppKit project ID — wired for BOT Chain 677
+
 const ABI=[
 'function createCollection(string name,string symbol,uint256 maxSupply,uint256 price) returns (uint256)',
 'function mintNFT(uint256 id) payable',
