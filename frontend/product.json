@@ -1,9 +1,9 @@
 {
-  "abiSource": "pending-current-source",
+  "abiSource": "runtime-matched-current-source",
   "repo": "liftoff",
   "brand": "LIFTOFF",
   "summary": "Inspect collections, mint available items, and look up your holdings.",
-  "address": null,
+  "address": "0x10FFb849dFd963Ac7e7E92E5d2b73947Fa2f59Be",
   "owner": null,
   "abi": [
     {
